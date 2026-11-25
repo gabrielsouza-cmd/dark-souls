@@ -1,0 +1,89 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #101010;
+    color: #dddddd;
+    font-family: Georgia, serif;
+    text-align: center;
+    transition: 0.5s;
+}
+
+header, footer {
+    background-color: #080808;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #c3a36a;
+}
+
+nav a {
+    color: #c3a36a;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+#inicio img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+section {
+    padding: 25px;
+}
+
+.jogos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+article {
+    background-color: #1c1c1c;
+    padding: 15px;
+    width: 280px;
+    border: 1px solid #59482f;
+    border-radius: 8px;
+}
+
+article img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+button {
+    background-color: #c3a36a;
+    color: #101010;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e8c78b;
+}
+
+.fogueira-acesa {
+    background: linear-gradient(to top, #a83200, #501b0d, #101010 65%);
+}
+
+@media (max-width: 600px) {
+    #inicio img {
+        height: 200px;
+    }
+    article {
+        width: 100%;
+    }
+}
